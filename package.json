@@ -1,0 +1,14 @@
+{
+  "name": "noah",
+  "version": "0.0.1",
+  "author": "Gershom Maes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gershy/noah.git"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
