@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./npm",
     "lib": [ "ES2025" ],
     "target": "ES2025",
     "module": "NodeNext",
@@ -13,9 +15,11 @@
     "noUncheckedSideEffectImports": true,
     "verbatimModuleSyntax": true,
     "noUnusedLocals": true,
+    "declaration": true,
+    "declarationMap": true,
     "types": [ "node" ]
   },
-  "files": [
-    "noah.ts"
+  "include": [
+    "src/**/*.ts"
   ]
 }
